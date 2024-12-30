@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> It's me Bhushan </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        p{
+            background-color: #D2D2D2;
+            background-image: 
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+
+        p::before{
+            position: absolute;
+            width: min(1400px,90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    
+    <header>
+        <h2 class="logo"> Logo</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home<span></span></a>
+            <a href="#">About<span></span></a>
+            <a href="#">services<span></span></a>
+            <a href="#">Contact<span></span></a>
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <h2 id="text">Welcome</h2>
+        <img src="tree-left.png" id="tree-left">
+        <img src="tree-right.png" id="tree-right">
+        <img src="gate-left.png" id="gate-left">
+        <img src="gate-right.png" id="gate-right" >
+        
+        
+    </section>
+
+    <section class="sec">
+        <center><h2>.. ZONE ..</h2></center>
+        <p>
+            <div class="banner">
+                <div class="slider" style="--quantity: 10">
+                    <div class="item" style="--position: 1"><img src="dragon_1.jpg" alt=""></div>
+                    <div class="item" style="--position: 2"><img src="dragon_2.jpg" alt=""></div>
+                    <div class="item" style="--position: 3"><img src="dragon_3.jpg" alt=""></div>
+                    <div class="item" style="--position: 4"><img src="dragon_4.jpg" alt=""></div>
+                    <div class="item" style="--position: 5"><img src="dragon_5.jpg" alt=""></div>
+                    <div class="item" style="--position: 6"><img src="dragon_6.jpg" alt=""></div>
+                    <div class="item" style="--position: 7"><img src="dragon_7.jpg" alt=""></div>
+                    <div class="item" style="--position: 8"><img src="dragon_8.jpg" alt=""></div>
+                    <div class="item" style="--position: 9"><img src="dragon_9.jpg" alt=""></div>
+                    <div class="item" style="--position: 10"><img src="dragon_10.jpg" alt=""></div>
+        
+                </div>
+                <div class="content">
+                    <h1 data-content="HUNGER">
+                        HUNGER
+                    </h1>
+                    <div class="author">
+                        <h2>BHUSHAN</h2>
+                        <p>Web Design</p>
+                        <p>
+                            HI, IT'S ME BHUSHAN ...
+                        </p>
+                    </div>
+                    <div class="model"></div>
+                </div>
+            </div>
+        </p>
+    </section>
+
+    <script src="script1.js"></script>
+
+
+</body>
+</html>
